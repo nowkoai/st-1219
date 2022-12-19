@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import math
 import matplotlib.pyplot as plt
 import pyperclip
 import numpy as np
@@ -11,7 +10,7 @@ import numpy as np
 st.title("🎉🎉週刊TODA🎉🎉")
 
 #csvアップローダーをサイドバーに設置
-upload_file = st.sidebar.file_uploader("ファイルアップロード", type='csv') 
+upload_file = st.sidebar.file_uploader("ファイルアップロード", type='csv')
 
 #アップロードしたcsvをpre_dfに代入し、最終行をカットしてdfへ代入
 pre_df = pd.read_csv(upload_file)

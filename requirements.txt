@@ -1,6 +1,5 @@
 pandas
-plotly==5.3.1
-math
+plotly
 matplotlib
 pyperclip
 numpy
