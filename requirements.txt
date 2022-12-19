@@ -1,0 +1,6 @@
+pandas
+plotly
+math
+matplotlib
+pyperclip
+numpy
